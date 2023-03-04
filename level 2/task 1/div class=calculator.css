@@ -1,0 +1,29 @@
+.calculator {
+  width: 200px;
+  height: 300px;
+  background-color: #FFC0CB;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: 2px 2px 2px #000;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-top: 10px;
+}
+
+button {
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  font-size: 20px;
+  color: #000;
+  box-shadow: 2px 2px 2px #000;
+}
+
+button:hover {
+  background-color: #000;
+  color: #fff;
+}
